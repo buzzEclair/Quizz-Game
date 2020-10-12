@@ -1,0 +1,23 @@
+
+
+.choices{
+  width: 100%;
+  margin-top: 50px;
+  button{
+    position: relative;
+    width: 80%;
+    border-radius: 10px;
+    height: 50px;
+    margin: 0 auto;
+    background: rgba($color: #000000, $alpha: 0);
+    border: 1px solid #2d56d2;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 15px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 17px;
+
+  }
+}

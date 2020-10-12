@@ -1,0 +1,17 @@
+@keyframes categoriesAnim {
+  0% { transform: translate(-7%)}
+  100% {transform: translate(7%)}
+}
+
+@keyframes btnPlayAnim {
+  0% { top: 89%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    height: 60px;}
+  10% { top: 50%; left: 50%; margin-bottom: 0; transform: translate(-50%, -50%); width: 90%; height: 60px;}
+  60% { width: 150%; height: 150%}
+  80% { opacity: 1;}
+  100% {width: 150%; height: 150%; top: 50%; left: 50%; margin-bottom: 0; transform: translate(-50%, -50%)}
+
+}
